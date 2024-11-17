@@ -562,4 +562,4 @@ export const PLUGINS = [
 ];
 
 export const SAAS_CHAT_URL = "https://chat.nu.ac.cn";
-export const SAAS_CHAT_UTM_URL = "https://chat.nu.ac.cn";
+export const SAAS_CHAT_UTM_URL = "https://oneapi.nu.ac.cn";
