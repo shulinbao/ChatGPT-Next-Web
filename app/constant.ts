@@ -316,5 +316,5 @@ export const PLUGINS = [
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
-export const SAAS_CHAT_URL = "https://chat.nu.ac.cn";
+export const SAAS_CHAT_URL = "https://oneapi.nu.ac.cn";
 export const SAAS_CHAT_UTM_URL = "https://oneapi.nu.ac.cn";
