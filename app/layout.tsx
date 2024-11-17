@@ -10,10 +10,10 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "HorseGPT",
+  title: "HorseGPT Chat",
   description: "Chat website powered by the HorseGPT project.",
   appleWebApp: {
-    title: "HorseGPT",
+    title: "HorseGPT Chat",
     statusBarStyle: "default",
   },
 };
