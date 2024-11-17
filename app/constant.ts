@@ -290,31 +290,6 @@ const googleModels = [
   "gemini-pro-vision",
 ];
 
-const anthropicModels = [
-];
-
-const baiduModels = [
-];
-
-const bytedanceModels = [
-];
-
-const alibabaModes = [
-];
-
-const tencentModels = [
-];
-
-const moonshotModes = [];
-
-const iflytekModels = [
-];
-
-const xAIModes = [""];
-
-const chatglmModels = [
-];
-
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
   ...openaiModels.map((name) => ({
