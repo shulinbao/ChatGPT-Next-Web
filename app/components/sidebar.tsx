@@ -232,7 +232,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title="HorseGPT Chat"
-        subTitle="[使用方法](https://horsegpt.nu.ac.cn) | [API 服务](https://oneapi.nu.ac.cn) | [服务状态](https://cf-worker-status-page-pro-production.shulinba0.workers.dev/)"
+        subTitle="`<a href="https://horsegpt.nu.ac.cn" target="_blank" rel="noopener noreferrer">使用方法</a>`"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
