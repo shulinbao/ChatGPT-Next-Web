@@ -562,7 +562,7 @@ const cn = {
     },
     Realtime: {
       Enable: {
-        Title: "实时聊天",
+        Title: "实时聊天（暂时不可用）",
         SubTitle: "开启实时聊天功能",
       },
       Provider: {
