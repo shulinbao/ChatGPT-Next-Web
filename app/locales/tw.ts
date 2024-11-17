@@ -23,7 +23,7 @@ const tw = {
     Confirm: "確認",
     Later: "稍候再說",
     Return: "返回",
-    SaasTips: "設定太麻煩，想要立即使用",
+    SaasTips: "前往 HorseGPT API 網站購買/獲得令牌",
     TopTips:
       " HorseGPT API，提供快速的AI公共服務，立刻解鎖 OpenAI o1, GPT-4o 等最新大模型",
   },
