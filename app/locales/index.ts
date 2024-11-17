@@ -29,22 +29,6 @@ const ALL_LANGS = {
   cn,
   en,
   tw,
-  pt,
-  jp,
-  ko,
-  id,
-  fr,
-  es,
-  it,
-  tr,
-  de,
-  vi,
-  ru,
-  cs,
-  no,
-  ar,
-  bn,
-  sk,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
