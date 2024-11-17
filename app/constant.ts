@@ -265,15 +265,10 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 export const DEFAULT_TTS_ENGINE = "OpenAI-TTS";
 export const DEFAULT_TTS_ENGINES = ["OpenAI-TTS", "Edge-TTS"];
 export const DEFAULT_TTS_MODEL = "tts-1";
-export const DEFAULT_TTS_VOICE = "alloy";
+export const DEFAULT_TTS_VOICE = "zh-CN-XiaoxiaoNeural";
 export const DEFAULT_TTS_MODELS = ["tts-1", "tts-1-hd"];
 export const DEFAULT_TTS_VOICES = [
-  "alloy",
-  "echo",
-  "fable",
-  "onyx",
-  "nova",
-  "shimmer",
+  "zh-CN-XiaoxiaoNeural",
 ];
 
 const openaiModels = [
@@ -281,13 +276,6 @@ const openaiModels = [
   "gpt-4o",
   "gpt-4o-mini",
   "dall-e-3",
-];
-
-const googleModels = [
-  "gemini-1.0-pro",
-  "gemini-1.5-pro-latest",
-  "gemini-1.5-flash-latest",
-  "gemini-pro-vision",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
@@ -312,17 +300,6 @@ export const DEFAULT_MODELS = [
       providerName: "Azure",
       providerType: "azure",
       sorted: 2,
-    },
-  })),
-  ...googleModels.map((name) => ({
-    name,
-    available: true,
-    sorted: seq++,
-    provider: {
-      id: "google",
-      providerName: "Google",
-      providerType: "google",
-      sorted: 3,
     },
   })),
 ] as const;
