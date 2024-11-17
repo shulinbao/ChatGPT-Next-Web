@@ -569,7 +569,7 @@ const en: LocaleType = {
     },
     Realtime: {
       Enable: {
-        Title: "Realtime Chat",
+        Title: "Realtime Chat (Temporarily unavailable)",
         SubTitle: "Enable realtime chat feature",
       },
       Provider: {
