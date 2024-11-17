@@ -18,7 +18,7 @@ const cn = {
   Auth: {
     Return: "返回",
     Title: "需要密码",
-    Tips: "如果您被授权使用不限量服务，请在这里属于密码",
+    Tips: "如果您被授权使用不限量服务，请在这里输入密码",
     SubTips: "或者输入你的 HorseGPT API 令牌",
     Input: "在此处填写密码",
     Confirm: "确认",
