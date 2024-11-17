@@ -234,14 +234,33 @@ export function SideBar(props: { className?: string }) {
         title="HorseGPT Chat"
         subTitle={
           <>
-            Chat website powered by the{' '}
-            <a 
-              href="https://horse-gpt-project-link.com" 
-              target="_blank" 
+            Chat website powered by <strong>HorseGPT</strong> project
+            <br />
+            <a
+              href="https://gpt.nu.ac.cn/"
+              target="_blank"
               rel="noopener noreferrer"
               style={{ color: 'inherit', textDecoration: 'underline' }}
             >
-              HorseGPT project
+              Help
+            </a>{' '}
+            |{' '}
+            <a
+              href="https://oneapi.nu.ac.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'inherit', textDecoration: 'underline' }}
+            >
+              HorseGPT API
+            </a>{' '}
+            |{' '}
+            <a
+              href="https://status.nu.ac.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'inherit', textDecoration: 'underline' }}
+            >
+              Service Status
             </a>
           </>
         }
