@@ -331,8 +331,8 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
-          Placeholder: "OpenAI API Key",
+          SubTitle: "使用自定义 HorseGPT Key 令牌",
+          Placeholder: "HorseGPT API 令牌",
         },
 
         Endpoint: {
