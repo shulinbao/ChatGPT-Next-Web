@@ -231,8 +231,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="HorseGPT Chat"
+        subTitle="[使用方法](https://horsegpt.nu.ac.cn) | [API 服务](https://oneapi.nu.ac.cn) | [服务状态](https://cf-worker-status-page-pro-production.shulinba0.workers.dev/)"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
