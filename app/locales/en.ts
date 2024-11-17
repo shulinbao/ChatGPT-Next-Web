@@ -315,7 +315,7 @@ const en: LocaleType = {
         Title: "Use HorseGPT API",
         Label: " (Convenient and Fast)",
         SubTitle:
-          "Maintained by the HorseGPT project, supporting the latest large models such as OpenAI o1 and GPT-4o"
+          "Maintained by the HorseGPT project, supporting the latest large models such as OpenAI o1 and GPT-4o",
         ChatNow: "Go Immediately",
       },
       AccessCode: {
