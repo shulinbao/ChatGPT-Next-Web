@@ -232,7 +232,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title="HorseGPT Chat"
-        subTitle="`<a href="https://horsegpt.nu.ac.cn" target="_blank" rel="noopener noreferrer">使用方法</a>`"
+        subTitle="Chat website powered by the HorseGPT project"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
