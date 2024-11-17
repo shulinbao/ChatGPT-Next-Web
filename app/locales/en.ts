@@ -9,26 +9,24 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized: isApp
-      ? `😆 Oops, there's an issue. No worries:
-     \\ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \\ 2️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️`
-      : `😆 Oops, there's an issue. Let's fix it:
-     \ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \ 2️⃣ Using a private setup? [Click here](/#/auth) to enter your key 🔑
-     \ 3️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️
+      ? `😆 Is this your first time at HorseGPT Chat?
+     \\ 1️⃣ If you are not sure what HorseGPT Chat is, [click here to learn more 🚀](${SAAS_CHAT_UTM_URL})`
+      : `😆 Is this your first time at HorseGPT Chat?
+     \ 1️⃣ If you are not sure what HorseGPT Chat is, [click here to learn more 🚀](${SAAS_CHAT_UTM_URL})
+     \ 2️⃣ If you have already purchased a redemption code for the HorseGPT API and generated a token, click [here](/#/auth) to enter your token and start using it 🔑
      `,
   },
   Auth: {
     Return: "Return",
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
-    SubTips: "Or enter your OpenAI or Google API Key",
+    Tips: "If you are authorized to use the unlimited service, please enter your password here",
+    SubTips: "Or enter your HorseGPT API Key",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
-    SaasTips: "Too Complex, Use Immediately Now",
+    SaasTips: "Go to the HorseGPT API website to purchase/get a token",
     TopTips:
-      "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
+      " HorseGPT API provides fast AI public services, instantly unlocking the latest large models such as OpenAI o1 and GPT-4o",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -114,7 +112,7 @@ const en: LocaleType = {
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
+    MessageFromChatGPT: "Message From HorseGPT",
     Share: "Share to ShareGPT",
     Format: {
       Title: "Export Format",
@@ -314,12 +312,11 @@ const en: LocaleType = {
     },
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
-        Label: " (Most Cost-Effective Option)",
+        Title: "Use HorseGPT API",
+        Label: " (Convenient and Fast)",
         SubTitle:
-          "Maintained by NextChat, zero setup needed, unlock OpenAI o1, GPT-4o," +
-          " Claude-3.5 and more",
-        ChatNow: "Start Now",
+          "Maintained by the HorseGPT project, supporting the latest large models such as OpenAI o1 and GPT-4o"
+        ChatNow: "Go Immediately",
       },
       AccessCode: {
         Title: "Access Code",
@@ -337,7 +334,7 @@ const en: LocaleType = {
       OpenAI: {
         ApiKey: {
           Title: "OpenAI API Key",
-          SubTitle: "User custom OpenAI Api Key",
+          SubTitle: "User custom HorseGPT Api Key",
           Placeholder: "sk-xxx",
         },
 
