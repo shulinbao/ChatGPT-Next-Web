@@ -661,7 +661,7 @@ const en: LocaleType = {
       style="color: inherit; text-decoration: underline;"
     >
       Service Status
-    </a>`
+    </a>`,
   FineTuned: {
     Sysmessage: "You are an assistant that",
   },
