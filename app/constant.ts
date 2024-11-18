@@ -403,3 +403,4 @@ export const PLUGINS = [
 
 export const SAAS_CHAT_URL = "https://oneapi.nu.ac.cn";
 export const SAAS_CHAT_UTM_URL = "https://oneapi.nu.ac.cn";
+export const GUIDE_URL = "https://gpt.nu.ac.cn/guide";
