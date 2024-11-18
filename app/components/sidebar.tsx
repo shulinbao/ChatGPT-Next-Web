@@ -231,7 +231,7 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="HorseGPT Chat"
+        title={shouldNarrow ? undefined : Locale.Subtitle.Name}
         subTitle={
           <>
             Chat website powered by <strong>HorseGPT</strong> project
