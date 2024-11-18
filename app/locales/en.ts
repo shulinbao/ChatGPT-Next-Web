@@ -10,9 +10,9 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Is this your first time at HorseGPT Chat?
-     \\ 1️⃣ If you are not sure what HorseGPT Chat is, [click here to learn more 🚀](${SAAS_CHAT_UTM_URL})`
+     \\ 1️⃣ If you'd like to view usage guidelines, [click here 🚀](${GUIDE_URL})`
       : `😆 Is this your first time at HorseGPT Chat?
-     \ 1️⃣ If you are not sure what HorseGPT Chat is, [click here to learn more 🚀](${SAAS_CHAT_UTM_URL})
+     \ 1️⃣ If you'd like to view usage guidelines, [click here 🚀](${GUIDE_URL})
      \ 2️⃣ If you have already purchased a redemption code for the HorseGPT API and generated a token, click [here](/#/auth) to enter your token and start using it 🔑
      `,
   },
