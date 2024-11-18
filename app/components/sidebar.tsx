@@ -232,7 +232,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title={shouldNarrow ? undefined : Locale.Maintitle.Name}
-        subTitle={shouldNarrow ? undefined : Locale.Subtitle.Name}
+        subTitle={shouldNarrow ? undefined : Locale.Subtitle}
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
