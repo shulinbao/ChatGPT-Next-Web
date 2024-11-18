@@ -625,6 +625,9 @@ const cn = {
   Discovery: {
     Name: "发现",
   },
+  Subtitle: {
+    Name: "发现",
+  },
   FineTuned: {
     Sysmessage: "你是一个助手",
   },
