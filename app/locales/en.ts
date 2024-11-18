@@ -633,6 +633,9 @@ const en: LocaleType = {
   Discovery: {
     Name: "Discovery",
   },
+  Subtitle: {
+    Name: "发现",
+  },
   FineTuned: {
     Sysmessage: "You are an assistant that",
   },
