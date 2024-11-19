@@ -159,8 +159,8 @@ function Screen() {
   const isSdNew = location.pathname === Path.SdNew;
 
   const isMobileScreen = useMobileScreen();
-  const shouldTightBorder = true;
-
+  const shouldTightBorder =
+    getClientConfig()?.isApp || (config.tightBorder && !isMobileScreen);
   useEffect(() => {
     loadAsyncGoogleFont();
   }, []);
