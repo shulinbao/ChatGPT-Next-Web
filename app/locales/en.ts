@@ -636,32 +636,7 @@ const en: LocaleType = {
   Maintitle: {
     Name: "HorseGPT Chat",
   },
-  Subtitle: `Chat website powered by <strong>HorseGPT</strong> project
-    <br />
-    <a
-      href="https://gpt.nu.ac.cn/"
-      target="_blank"
-      rel="noopener noreferrer"
-      style="color: inherit; text-decoration: underline;"
-    >
-      Help
-    </a> | 
-    <a
-      href="https://oneapi.nu.ac.cn/"
-      target="_blank"
-      rel="noopener noreferrer"
-      style="color: inherit; text-decoration: underline;"
-    >
-      HorseGPT API
-    </a> | 
-    <a
-      href="https://status.nu.ac.cn/"
-      target="_blank"
-      rel="noopener noreferrer"
-      style="color: inherit; text-decoration: underline;"
-    >
-      Service Status
-    </a>`,
+  Subtitle: "Chat website powered by **HorseGPT** project",
   FineTuned: {
     Sysmessage: "You are an assistant that",
   },
