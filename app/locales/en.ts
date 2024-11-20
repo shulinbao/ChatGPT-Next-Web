@@ -11,7 +11,7 @@ const en: LocaleType = {
   Error: {
     Unauthorized: `😆 Is this your first time at HorseGPT Chat?
      \ 1️⃣ If you'd like to view usage guidelines, [click here 🚀](${GUIDE_URL})
-     \ 2️⃣ If you have already purchased a redemption code for the HorseGPT API and generated a token, click [here](/#/auth) to enter your token and start using it 🔑
+     \ 2️⃣ If you have already purchased a redemption code for the HorseGPT API and generated a token, click [here](https://oneapi.nu.ac.cn/token) and press Chat on the right side of your token to import the token and start using it 🔑
      `,
   },
   Auth: {
