@@ -633,7 +633,7 @@ const en: LocaleType = {
   Maintitle: {
     Name: "HorseGPT Chat",
   },
-  Subtitle: "Chat website powered by **HorseGPT** project",
+  Subtitle: "Chat website powered by HorseGPT project",
   FineTuned: {
     Sysmessage: "You are an assistant that",
   },
