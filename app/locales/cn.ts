@@ -8,10 +8,7 @@ const isApp = !!getClientConfig()?.isApp;
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: isApp
-      ? `😆 第一次来到 HorseGPT Chat?
-       \\ 1️⃣ 如果你想查阅使用方法，[请点击这里 🚀](${GUIDE_URL})`
-      : `😆 第一次来到 HorseGPT Chat?
+    Unauthorized: `😆 第一次来到 HorseGPT Chat?
        \ 1️⃣ 如果你想查阅使用方法，[请点击这里 🚀](${GUIDE_URL})
        \ 2️⃣ 如果你已经购买了 HorseGPT API 的兑换码并生成了令牌，点击[这里](/#/auth)输入你的令牌就可以使用啦 🔑
        `,
