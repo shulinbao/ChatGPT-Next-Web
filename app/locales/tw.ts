@@ -9,7 +9,7 @@ const tw = {
   Error: {
     Unauthorized: `😆 第一次來到 HorseGPT Chat?
     \ 1️⃣ 如果你想查阅使用方法，[请點擊這裡 🚀](${GUIDE_URL})
-    \ 2️⃣ 如果你已經購買了 HorseGPT API 的兌換碼並生成了令牌，點擊[這裡](/#/auth)輸入你的令牌就可以使用了 🔑
+    \ 2️⃣ 如果你已經購買了 HorseGPT API 的兌換碼並生成了令牌，點擊[這裡](https://oneapi.nu.ac.cn/token)找到你的令牌，並點擊右邊的聊天按鈕，導入令牌使用 🔑
  `,
   },
 
