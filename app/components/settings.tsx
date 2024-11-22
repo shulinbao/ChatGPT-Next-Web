@@ -716,24 +716,24 @@ export function Settings() {
     </ListItem>
   );
 
-//  const useCustomConfigComponent = // Conditionally render the following ListItem based on clientConfig.isApp
-//    !clientConfig?.isApp && ( // only show if isApp is false
-//      <ListItem
-//        title={Locale.Settings.Access.CustomEndpoint.Title}
-//        subTitle={Locale.Settings.Access.CustomEndpoint.SubTitle}
-//      >
-//        <input
-//          aria-label={Locale.Settings.Access.CustomEndpoint.Title}
-//          type="checkbox"
-//          checked={accessStore.useCustomConfig}
-//          onChange={(e) =>
-//            accessStore.update(
-//              (access) => (access.useCustomConfig = e.currentTarget.checked),
-//            )
-//          }
-//        ></input>
-//      </ListItem>
-//    );
+  const useCustomConfigComponent = // Conditionally render the following ListItem based on clientConfig.isApp
+    !clientConfig?.isApp && ( // only show if isApp is false
+      <ListItem
+        title={Locale.Settings.Access.CustomEndpoint.Title}
+        subTitle={Locale.Settings.Access.CustomEndpoint.SubTitle}
+      >
+        <input
+          aria-label={Locale.Settings.Access.CustomEndpoint.Title}
+          type="checkbox"
+          checked={accessStore.useCustomConfig}
+          onChange={(e) =>
+            accessStore.update(
+              (access) => (access.useCustomConfig = e.currentTarget.checked),
+            )
+          }
+        ></input>
+      </ListItem>
+    );
 
   const openAIConfigComponent = accessStore.provider ===
     ServiceProvider.OpenAI && (
