@@ -397,7 +397,7 @@ export const internalAllowedWebDavEndpoints = [
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 export const PLUGINS = [
   { name: "Plugins", path: Path.Plugins },
-  { name: "Stable Diffusion(暂时不可用 Temporarily unavailable)", path: Path.Sd },
+//  { name: "Stable Diffusion(暂时不可用 Temporarily unavailable)", path: Path.Sd },
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
