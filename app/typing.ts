@@ -8,6 +8,6 @@ export interface RequestMessage {
   content: string;
 }
 
-export type DalleSize = "512x512" | "1024x768" | "1024x1024";
+export type DalleSize = "512x512" | "1024x1024";
 export type DalleQuality = "standard" | "hd";
 export type DalleStyle = "vivid" | "natural";
