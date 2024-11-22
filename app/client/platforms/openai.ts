@@ -206,7 +206,7 @@ export class ChatGPTApi implements LLMApi {
         // URLs are only valid for 60 minutes after the image has been generated.
         response_format: "b64_json", // using b64_json, and save image in CacheStorage
         n: 1,
-        size: options.config?.size ?? "1024x1024",
+        size: options.config?.size ?? "512x512",
         quality: options.config?.quality ?? "standard",
         style: options.config?.style ?? "vivid",
       };
