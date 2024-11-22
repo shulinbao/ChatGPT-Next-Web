@@ -519,7 +519,7 @@ export function ChatActions(props: {
   const [showSizeSelector, setShowSizeSelector] = useState(false);
   const [showQualitySelector, setShowQualitySelector] = useState(false);
   const [showStyleSelector, setShowStyleSelector] = useState(false);
-  const dalle3Sizes: DalleSize[] = ["512x512", "1024x768", "1024x1024"];
+  const dalle3Sizes: DalleSize[] = ["512x512", "1024x1024"];
   const dalle3Qualitys: DalleQuality[] = ["standard", "hd"];
   const dalle3Styles: DalleStyle[] = ["vivid", "natural"];
   const currentSize = session.mask.modelConfig?.size ?? "512x512";
