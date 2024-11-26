@@ -186,7 +186,8 @@ export function stream(
 
         responseText = "公益提供 AI 服务不易，请珍惜账号喵！根据 OpenAI 给我们的通知，您在本对话中有内容违反了他们的使用政策。请开启新的对话，并避免再次违反政策，多次违反使用政策可能会影响您的使用。Please cherish your account! According to the notice from OpenAI, some content in this conversation violates their usage policy. Please start a new conversation and avoid violating the policy again."; // 直接设置无效的文本
         options.onUpdate?.(responseText, responseText); // 更新文本
-
+        finish(); // 直接调用 finish，结束对话
+        return;  // 确保不再继续动画
         
       }
       return;
