@@ -1,5 +1,5 @@
-export const OWNER = "ChatGPTNextWeb";
-export const REPO = "ChatGPT-Next-Web";
+export const OWNER = "HorseGPT";
+export const REPO = "HorseGPT_Chat";
 export const REPO_URL = `https://oneapi.nu.ac.cn`;
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://oneapi.nu.ac.cn`;
@@ -11,7 +11,7 @@ export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
 export const STABILITY_BASE_URL = "https://api.stability.ai";
 
-export const OPENAI_BASE_URL = "https://api.openai.com";
+export const OPENAI_BASE_URL = "https://oneapi.nu.ac.cn";
 export const ANTHROPIC_BASE_URL = "https://api.anthropic.com";
 
 export const GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/";
@@ -254,7 +254,7 @@ Latex block: $$e=mc^2$$
 `;
 
 export const SUMMARIZE_MODEL = "gpt-4o-mini";
-export const GEMINI_SUMMARIZE_MODEL = "gemini-pro";
+export const GEMINI_SUMMARIZE_MODEL = "gemini-1.5-flash-latest";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -361,6 +361,7 @@ const openaiModels = [
   "gpt-4o",
   "gpt-4o-mini",
   "dall-e-3",
+  "gpts",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
@@ -397,7 +398,6 @@ export const internalAllowedWebDavEndpoints = [
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 export const PLUGINS = [
   { name: "Plugins", path: Path.Plugins },
-//  { name: "Stable Diffusion(暂时不可用 Temporarily unavailable)", path: Path.Sd },
   { name: "Search Chat", path: Path.SearchChat },
 ];
 
