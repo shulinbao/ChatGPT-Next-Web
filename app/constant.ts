@@ -386,7 +386,7 @@ const llamaModels = [
 ];
 
 const ttsModels = [
-  "gemini-1.5-flash-latest",
+  "tts-1",
 ];
 
 
