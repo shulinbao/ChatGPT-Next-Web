@@ -373,6 +373,10 @@ const geminiModels = [
   "gemini-1.5-flash-latest",
 ];
 
+const claudetModels = [
+  "claude-3-haiku",
+];
+
 const horseModels = [
   "horseGPT-fast:latest",
 ];
