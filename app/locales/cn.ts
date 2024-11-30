@@ -11,7 +11,7 @@ const cn = {
     Unauthorized: `😆 第一次来到 HorseGPT Chat?
        \ 1️⃣ 如果您想查阅使用方法，[请点击这里 🚀](${GUIDE_URL})
        \ 2️⃣ 如果您已经在 HorseGPT API 生成了令牌，[点击这里](https://oneapi.nu.ac.cn/token) 找到你的令牌，并点击右边的聊天按钮，导入令牌使用 🔑
-       \ 3️⃣ 如果您已经把本网站安装为手机 APP，[请点击这里](/auth) 导入令牌哦 🎉
+       \ 3️⃣ 如果您已经把本网站安装为手机 APP，[请点击这里](/#/auth) 导入令牌哦 🎉
        `,
   },
   Auth: {
