@@ -9,6 +9,7 @@ import { ModelType } from "../store";
 import BotIcon from "../icons/bot.svg";
 import MetaIcon from "../icons/meta.svg";
 import GoogleIcon from "../icons/google.svg";
+import ClaudeIcon from "../icons/claude.svg";
 import OpenIcon from "../icons/black-bot.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
@@ -42,6 +43,8 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
         <OpenIcon className="user-avatar" />
       ) : props.model?.startsWith("gemini") ? (
         <GoogleIcon className="user-avatar" />
+      ) : props.model?.startsWith("claude") ? (
+        <ClaudeIcon className="user-avatar" />
       ) : props.model?.startsWith("llama") ? (
         <MetaIcon className="user-avatar" />
       ) : (
