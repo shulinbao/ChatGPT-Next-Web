@@ -399,7 +399,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "gpt-4o-mini",
       providerName: "OpenAI | 【首选】快速、稳定但上下文数量偏小，如因对话太长拒绝回复请新开对话",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -410,7 +410,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "gpt-4o",
       providerName: "OpenAI | 可联网、多模态但上游不稳定，如遇429错误请稍后再试",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -421,7 +421,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "stable-diffusion",
       providerName: "Stable Diffusion | 图片生成，如生成速度慢说明在队列中，请稍等",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -432,7 +432,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "gemini-1.5-flash",
       providerName: "Google | 谷歌的视觉大模型，并发数低，高峰期遇到错误请稍后重试",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -443,7 +443,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "claude",
       providerName: "Claude | 速度快，但中文支持不好",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -454,7 +454,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "horsegpt",
       providerName: "HorseGPT | 【VIP】专用，使用本地算力的无审查大模型",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -465,7 +465,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "llama",
       providerName: "Meta | 【VIP】专用，快速的多模态大模型",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
@@ -476,7 +476,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "tts",
       providerName: "TTS | 文字转语音模型，可在设置中为对话开启",
-      providerType: "custom",
+      providerType: "test",
       sorted: 1,
     },
   })),
