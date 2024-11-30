@@ -364,6 +364,10 @@ const openaiModels = [
   "gpts",
 ];
 
+const geminiModels = [
+  "gemini-1.5-flash-latest",
+];
+
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
   ...openaiModels.map((name) => ({
@@ -377,6 +381,19 @@ export const DEFAULT_MODELS = [
       sorted: 1, // 这里是固定的，确保顺序与之前内置的版本一致
     },
   })),
+
+  ...geminiModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "google",
+      providerName: "Google",
+      providerType: "google",
+      sorted: 1, // 这里是固定的，确保顺序与之前内置的版本一致
+    },
+  })),
+  
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
