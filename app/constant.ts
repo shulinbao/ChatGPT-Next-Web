@@ -356,43 +356,127 @@ export const DEFAULT_TTS_VOICES = [
 "en-US-ChristopherMultilingualNeural",
 ];
 
-const openaiModels = [
-  "gpt-3.5-turbo",
-  "gpt-4o",
+const fominiModels = [
   "gpt-4o-mini",
-  "dall-e-3",
+];
+
+const foModels = [
+  "gpt-4o",
   "gpts",
+];
+
+const dalleModels = [
+  "dall-e-3",
 ];
 
 const geminiModels = [
   "gemini-1.5-flash-latest",
 ];
 
+const horseModels = [
+  "horseGPT-fast:latest",
+];
+
+const llamaModels = [
+  "llama-3.2-90b-vision-preview",
+];
+
+const ttsModels = [
+  "gemini-1.5-flash-latest",
+];
+
+
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
-  ...openaiModels.map((name) => ({
+  ...fominiModels.map((name) => ({
     name,
     available: true,
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "openai",
-      providerName: "OpenAI",
+      providerName: "OpenAI | 【首选】快速、稳定但上下文数量偏小，如因对话太长拒绝回复请新开对话",
       providerType: "openai",
-      sorted: 1, // 这里是固定的，确保顺序与之前内置的版本一致
+      sorted: 1,
     },
   })),
-
+  ...foModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "OpenAI | 可联网、多模态但上游不稳定，如遇429错误请稍后再试",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
+  ...dalleModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "Stable Diffusion | 图片生成，如生成速度慢说明在队列中，请稍等",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
   ...geminiModels.map((name) => ({
     name,
     available: true,
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "google",
-      providerName: "Google",
+      providerName: "Google | 谷歌的视觉大模型，并发数低，高峰期遇到错误请稍后重试",
       providerType: "google",
-      sorted: 1, // 这里是固定的，确保顺序与之前内置的版本一致
+      sorted: 1,
     },
   })),
+  ...claudetModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "Claude | 速度快，但中文支持不好",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
+  ...horseModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "HorseGPT | 【VIP】专用，使用本地算力的无审查大模型",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
+  ...llamaModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "Meta | 【VIP】专用，快速的多模态大模型",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
+  ...ttsModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++, // Global sequence sort(index)
+    provider: {
+      id: "openai",
+      providerName: "TTS | 文字转语音模型，可在设置中为对话开启",
+      providerType: "openai",
+      sorted: 1,
+    },
+  })),
+
   
 ] as const;
 
