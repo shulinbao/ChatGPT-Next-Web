@@ -8,7 +8,7 @@ import { ModelType } from "../store";
 
 import BotIcon from "../icons/bot.svg";
 import MetaIcon from "../icons/meta.svg";
-import googleIcon from "../icons/google.svg";
+import GoogleIcon from "../icons/google.svg";
 import OpenIcon from "../icons/black-bot.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
