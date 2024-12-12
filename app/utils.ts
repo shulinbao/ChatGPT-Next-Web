@@ -260,6 +260,8 @@ export function isVisionModel(model: string) {
     "gpt-4o",
     "claude-3",
     "gemini-1.5",
+    "gemini-2.0",
+    "llama-3.2-90b-vision",
     "qwen-vl",
     "qwen2-vl",
   ];
