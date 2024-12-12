@@ -409,7 +409,7 @@ export const DEFAULT_MODELS = [
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "gpt-4o",
-      providerName: "OpenAI | 多模态但上游不稳定，如遇429错误请稍后再试",
+      providerName: "OpenAI | 高性能 gpt-4o 模型，能够完成复杂的任务，通过 Gpts 转发维持服务的稳定性",
       providerType: "test",
       sorted: 1,
     },
