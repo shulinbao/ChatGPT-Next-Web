@@ -361,7 +361,6 @@ const fominiModels = [
 ];
 
 const foModels = [
-  "gpt-4o",
   "gpts",
 ];
 
@@ -371,6 +370,7 @@ const dalleModels = [
 
 const geminiModels = [
   "gemini-1.5-flash-latest",
+  "gemini-2.0-flash-exp",
 ];
 
 const claudetModels = [
@@ -409,7 +409,7 @@ export const DEFAULT_MODELS = [
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "gpt-4o",
-      providerName: "OpenAI | 可联网、多模态但上游不稳定，如遇429错误请稍后再试",
+      providerName: "OpenAI | 多模态但上游不稳定，如遇429错误请稍后再试",
       providerType: "test",
       sorted: 1,
     },
