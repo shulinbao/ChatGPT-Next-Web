@@ -362,6 +362,7 @@ const fominiModels = [
 
 const foModels = [
   "gpts",
+  "gpt-4o",
 ];
 
 const dalleModels = [
@@ -409,7 +410,7 @@ export const DEFAULT_MODELS = [
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "gpt-4o",
-      providerName: "OpenAI | 高性能 gpt-4o 模型，能够完成复杂的任务，通过 Gpts 转发维持服务的稳定性",
+      providerName: "OpenAI | 高性能 gpt-4o 模型，能够完成复杂的任务，如遇到429错误请稍后重试",
       providerType: "test",
       sorted: 1,
     },
